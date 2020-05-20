@@ -1,0 +1,16 @@
+{
+  "name": "gerardohuerta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "particlesjs": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

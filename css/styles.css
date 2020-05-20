@@ -1,0 +1,107 @@
+/* particles.js doc Styles */
+html, body { height: 100% }
+
+/* CUSTOM AND particles.js doc Styles */
+body {
+  display: flex;
+  background-color: #F6F9FC;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* particles.js doc Styles */
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+/* CUSTOM STYLES */
+.main {
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  margin: 0 auto;
+  z-index: 1;
+
+}
+.main h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+
+}
+
+.main h2 {
+  margin-top: 0;
+  font-size: 1.6em;
+  text-align: right;
+  font-weight: 400;
+  margin-bottom: .3em;
+}
+
+.main p {
+  font-size: 1.3em;
+}
+
+footer {
+  position: fixed;
+  bottom: .3em;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+img {
+  height: 400px;
+  margin-right: 4em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content h1 {
+  text-align: right;
+}
+
+span.isc {
+  font-weight: 600;
+}
+
+.content :last-child {
+  text-align: right;
+}
+
+.frontEnd {
+  font-weight: 600;
+}
+
+a.resume {
+  font-weight: 600;
+  text-decoration: none;
+  color: #6772E5;
+}
+
+a.resume:hover {
+  color: black;
+}
+
+.contact {
+  font-size: 2.1em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact a {
+  margin-right: .2em;
+  color: #6772E5;
+  transition: all .1s ease-in; 
+}
+
+.contact a:hover {
+  
+  transform: scale(1.1);
+}
+
+.contact a:last-child {
+  margin-right: 0;
+}
